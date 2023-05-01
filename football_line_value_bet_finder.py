@@ -21,7 +21,7 @@ value_bet_finder = ValueBetFinder(
                         paired_collections=paired_collections, 
                         value_bet_collection=football_value_bet_collection,
                         logger=logger,
-                        thread_pool_workers=1,
+                        thread_pool_workers=0,
                         line=0
                         )
 

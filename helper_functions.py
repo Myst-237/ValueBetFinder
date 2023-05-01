@@ -1,5 +1,6 @@
 from typing import Tuple, Callable, List, Union
 from datetime import datetime
+import hashlib
 
 def equalize_matches(match1: dict, match2: dict) -> Tuple[dict, dict]:
     """
@@ -186,7 +187,8 @@ def compare_markets(match1: dict, match2: dict, bookmaker1: str, bookmaker2: str
     
     
     if "_id" in match1.keys():
-        final_match["_id"] = match1["_id"]
+        final_match["_id"] = hashlib.md5(( match1["_id"]+match1["bookmaker_name"] + match2["bookmaker_name"]).encode()).hexdigest()
+        final_match["match_id"] = match1["_id"]
         final_match["bookmaker_name"] = match1["bookmaker_name"] + " - "+ match2["bookmaker_name"]
         final_match["sport_name"] = match1["sport_name"]
         final_match["competition"] = match1["competition"]
