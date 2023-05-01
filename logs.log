@@ -1,0 +1,372 @@
+2023-05-01 09:36:03,979 - __main__ - INFO - Finding Value bets ...
+2023-05-01 09:36:03,982 - __main__ - INFO - Fetching matches for 01/05/23
+2023-05-01 09:36:11,807 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:36:11,809 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:36:12,302 - __main__ - INFO - Value bet successfully added to line value bets, _id: 330aa743703de5309e8cde1a99323571
+2023-05-01 09:36:12,727 - __main__ - INFO - Value bet successfully added to line value bets, _id: fc27200b68d99447a22a890423604095
+2023-05-01 09:36:13,151 - __main__ - INFO - Value bet successfully added to line value bets, _id: e34423f0c969c0a2c88747d4a48864ee
+2023-05-01 09:36:13,562 - __main__ - INFO - Value bet successfully added to line value bets, _id: 478cc76477fea56183c9c0435d71bc49
+2023-05-01 09:36:13,981 - __main__ - INFO - Value bet successfully added to line value bets, _id: 9f11afe1dcedcd4d6196d63a2800252b
+2023-05-01 09:36:14,398 - __main__ - INFO - Value bet successfully added to line value bets, _id: 26cf1243b88be7ab791e7632744160bc
+2023-05-01 09:36:14,830 - __main__ - INFO - Value bet successfully added to line value bets, _id: b60b70ef3235246ebcb9717679fcaf9f
+2023-05-01 09:36:15,249 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6d8296d9dd73458551c296850bcb2d2a
+2023-05-01 09:36:15,662 - __main__ - INFO - Value bet successfully added to line value bets, _id: 155f42811f5353ecfbe1af58d309e94b
+2023-05-01 09:36:16,092 - __main__ - INFO - Value bet successfully added to line value bets, _id: 8d9afc1b76dd89fc93b288639bf2bbaf
+2023-05-01 09:36:16,528 - __main__ - INFO - Value bet successfully added to line value bets, _id: 2d6f8045b7191c6eb5bac5d20714b67b
+2023-05-01 09:36:16,943 - __main__ - INFO - Value bet successfully added to line value bets, _id: 86a7319f16539e1ff70d58fb521eec29
+2023-05-01 09:36:17,367 - __main__ - INFO - Value bet successfully added to line value bets, _id: edb6575282f755e109f851517d58b900
+2023-05-01 09:36:17,782 - __main__ - INFO - Value bet successfully added to line value bets, _id: 2514219543eeab0c3fad01de6468ea0c
+2023-05-01 09:36:18,207 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7410f33bea1a5f96ef7eec8a8b717d52
+2023-05-01 09:36:18,209 - __main__ - INFO - Fetching matches for 02/05/23
+2023-05-01 09:36:21,931 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:36:21,933 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:36:22,441 - __main__ - INFO - Value bet successfully added to line value bets, _id: e9b3754bc9a0da15a287a1d9d9c214fa
+2023-05-01 09:36:22,952 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7316e0d76546fe53e0ab0fba4f6ba498
+2023-05-01 09:36:23,465 - __main__ - INFO - Value bet successfully added to line value bets, _id: 2b56b199c3541ba2db037fd8470ad151
+2023-05-01 09:36:23,977 - __main__ - INFO - Value bet successfully added to line value bets, _id: e4d270930ad3291a28e8f7a5a03d5d81
+2023-05-01 09:36:24,489 - __main__ - INFO - Value bet successfully added to line value bets, _id: f709a8e40fda5d40d7895e3495cd321f
+2023-05-01 09:36:24,906 - __main__ - INFO - Value bet successfully added to line value bets, _id: 140371a8562a17bf325e97c2f8857dae
+2023-05-01 09:36:25,328 - __main__ - INFO - Value bet successfully added to line value bets, _id: 3b2df95f13e9c54e85c36935556e55e3
+2023-05-01 09:36:25,754 - __main__ - INFO - Value bet successfully added to line value bets, _id: c3b9f3410951f1b85ba2f58785ddf0d7
+2023-05-01 09:36:26,191 - __main__ - INFO - Value bet successfully added to line value bets, _id: 117092e755e06acf25b17d1ff7602c9f
+2023-05-01 09:36:26,617 - __main__ - INFO - Value bet successfully added to line value bets, _id: 372c7a9cb7b7282056f55f48e7de6cce
+2023-05-01 09:36:26,619 - __main__ - INFO - Fetching matches for 03/05/23
+2023-05-01 09:36:35,810 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:36:35,812 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:36:36,231 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6f81a92619bbbcf5717c6f9c78490bb7
+2023-05-01 09:36:36,640 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6ce7343d300e697106d52006ae2b9dda
+2023-05-01 09:36:37,074 - __main__ - INFO - Value bet successfully added to line value bets, _id: c8ea7ae1ea748dc7932a01a3c7f6c7b5
+2023-05-01 09:36:37,511 - __main__ - INFO - Value bet successfully added to line value bets, _id: a7ac8e7114179e63e1890e291c048bf6
+2023-05-01 09:36:37,943 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6952f2e146180124776ce880a91e6dc0
+2023-05-01 09:36:38,362 - __main__ - INFO - Value bet successfully added to line value bets, _id: c9d79b5d63d1340f4bc506f7ad101ab2
+2023-05-01 09:36:38,782 - __main__ - INFO - Value bet successfully added to line value bets, _id: c81f243ee4b357d1982e25ee69983b7a
+2023-05-01 09:36:39,207 - __main__ - INFO - Value bet successfully added to line value bets, _id: a6ba127a3d2e2fe81a72509a2cf212aa
+2023-05-01 09:36:39,629 - __main__ - INFO - Value bet successfully added to line value bets, _id: 81415232d3f835d1c815197817fcee5f
+2023-05-01 09:36:40,054 - __main__ - INFO - Value bet successfully added to line value bets, _id: 973325711730794d3b32fa8b8d3eb68a
+2023-05-01 09:36:40,462 - __main__ - INFO - Value bet successfully added to line value bets, _id: 4c19793fd16f2067898ad2fd51a42082
+2023-05-01 09:36:40,881 - __main__ - INFO - Value bet successfully added to line value bets, _id: 94399779cb13986b814b4b244e438db5
+2023-05-01 09:36:41,301 - __main__ - INFO - Value bet successfully added to line value bets, _id: fa165a46de992e367ecd3abaf83bc6a9
+2023-05-01 09:36:41,722 - __main__ - INFO - Value bet successfully added to line value bets, _id: 3a7f9dfe93b279512c0ba6f17577d744
+2023-05-01 09:36:42,147 - __main__ - INFO - Value bet successfully added to line value bets, _id: aa6d6c5ff7856cdf3692cd518cbfb3b3
+2023-05-01 09:36:42,560 - __main__ - INFO - Value bet successfully added to line value bets, _id: e3abe54cff2d63602c9b8222a31da6a8
+2023-05-01 09:36:42,982 - __main__ - INFO - Value bet successfully added to line value bets, _id: b50e7e37f8cf5019cf85bf37aa79da33
+2023-05-01 09:36:43,433 - __main__ - INFO - Value bet successfully added to line value bets, _id: 1ad013e6889e03b4b85f3e3ee7f69ec4
+2023-05-01 09:36:43,944 - __main__ - INFO - Value bet successfully added to line value bets, _id: 075a7cf6fb20b190836b4d8761cf1ec5
+2023-05-01 09:36:44,368 - __main__ - INFO - Value bet successfully added to line value bets, _id: ef1236da501c08d7a0eca6f8732fde0d
+2023-05-01 09:36:44,785 - __main__ - INFO - Value bet successfully added to line value bets, _id: f1543f1bec5b6cae008aae9b1fa1d180
+2023-05-01 09:36:45,202 - __main__ - INFO - Value bet successfully added to line value bets, _id: 58197fc33e52fe835e8b2c3e85d0361b
+2023-05-01 09:36:45,632 - __main__ - INFO - Value bet successfully added to line value bets, _id: 299d9931d3f8aae34d110eb98f443a4c
+2023-05-01 09:36:46,100 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7e1afae424c4b38daf01dd070cd8d077
+2023-05-01 09:36:46,530 - __main__ - INFO - Value bet successfully added to line value bets, _id: a70aa1dd823cc9bb761dab7687b17663
+2023-05-01 09:36:46,942 - __main__ - INFO - Value bet successfully added to line value bets, _id: 8dd13b230469acf04c05fcde7aa2afdd
+2023-05-01 09:36:47,369 - __main__ - INFO - Value bet successfully added to line value bets, _id: 413cbd7d4c29018b23a311e70e3fbf37
+2023-05-01 09:36:47,814 - __main__ - INFO - Value bet successfully added to line value bets, _id: 784ca4d2b3050665562481f2baf8efe1
+2023-05-01 09:36:48,247 - __main__ - INFO - Value bet successfully added to line value bets, _id: 5a8b6095c28364d9bcdcd05e0d46df50
+2023-05-01 09:36:48,670 - __main__ - INFO - Value bet successfully added to line value bets, _id: 90a9be2b6d92ed871ec3f284056e75f4
+2023-05-01 09:36:49,187 - __main__ - INFO - Value bet successfully added to line value bets, _id: 5fef9622cc7c18d7bb417d046dd29722
+2023-05-01 09:36:49,608 - __main__ - INFO - Value bet successfully added to line value bets, _id: 8fdbe3db2d0c61784c4f01f9dc45188b
+2023-05-01 09:36:50,089 - __main__ - INFO - Value bet successfully added to line value bets, _id: 3f7f85be338f54d6be9e48194cacc444
+2023-05-01 09:36:50,601 - __main__ - INFO - Value bet successfully added to line value bets, _id: 36a283c57f06ae4d64cc75649f7175d6
+2023-05-01 09:36:51,022 - __main__ - INFO - Value bet successfully added to line value bets, _id: aebfef7c8935fd4ebc04bec690983c6a
+2023-05-01 09:36:51,024 - __main__ - INFO - Fetching matches for 04/05/23
+2023-05-01 09:36:53,371 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:36:53,372 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:36:53,789 - __main__ - INFO - Value bet successfully added to line value bets, _id: de16d8548cd428c241e15476c628b29a
+2023-05-01 09:36:54,287 - __main__ - INFO - Value bet successfully added to line value bets, _id: e69c0de8f9218added01540a5a4f5713
+2023-05-01 09:36:54,729 - __main__ - INFO - Value bet successfully added to line value bets, _id: 77c6a11ef8324c3c5b4a2c5bd781a59d
+2023-05-01 09:36:55,141 - __main__ - INFO - Value bet successfully added to line value bets, _id: 3aebc5cc88bb607146478ff4281b661e
+2023-05-01 09:36:55,618 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6dc05f025b8d217d1efb776322c91417
+2023-05-01 09:36:56,043 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6e128c216068d03b0fcdae817eba729a
+2023-05-01 09:36:56,474 - __main__ - INFO - Value bet successfully added to line value bets, _id: 4362c7e1264f27d896b1ed76afe8bbbf
+2023-05-01 09:36:56,476 - __main__ - INFO - Fetching matches for 05/05/23
+2023-05-01 09:37:03,111 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:37:03,115 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:37:03,541 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7e170377c87ccbb9cb8f47bd0a4a2f74
+2023-05-01 09:37:03,979 - __main__ - INFO - Value bet successfully added to line value bets, _id: 052d67d76f6754c6f8817f5ad439fe6b
+2023-05-01 09:37:04,400 - __main__ - INFO - Value bet successfully added to line value bets, _id: 61a1059ff3cdaf8c31b765a7cb7d9981
+2023-05-01 09:37:04,827 - __main__ - INFO - Value bet successfully added to line value bets, _id: ec2ca5e18735e0b390ce04a3723ea483
+2023-05-01 09:37:05,241 - __main__ - INFO - Value bet successfully added to line value bets, _id: 3a6d3fbb2790c02bbf8585eed351e2f1
+2023-05-01 09:37:05,249 - __main__ - INFO - Fetching matches for 06/05/23
+2023-05-01 09:37:39,684 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:37:39,687 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:37:40,109 - __main__ - INFO - Value bet successfully added to line value bets, _id: 17db251dc473ab10352de1799780c152
+2023-05-01 09:37:40,523 - __main__ - INFO - Value bet successfully added to line value bets, _id: 49bb726d4561ccfb6330b08e87346290
+2023-05-01 09:37:41,772 - __main__ - INFO - Value bet successfully added to line value bets, _id: 1e534b5649ca30d4e3cb5fa12e64c63d
+2023-05-01 09:37:42,176 - __main__ - INFO - Value bet successfully added to line value bets, _id: 14089024c92a1bf3a3e5712b704eab56
+2023-05-01 09:37:42,600 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6d2448c3c5f3c53c25c6178db2faeb82
+2023-05-01 09:37:43,054 - __main__ - INFO - Value bet successfully added to line value bets, _id: f4b1af925a420176b01d6c27cb88ad97
+2023-05-01 09:37:46,751 - __main__ - INFO - Value bet successfully added to line value bets, _id: e191b6fbb03e73fc8daa16f98502b156
+2023-05-01 09:37:47,160 - __main__ - INFO - Value bet successfully added to line value bets, _id: bda1f44b778e699918efae1aac018bd0
+2023-05-01 09:38:00,460 - __main__ - INFO - Value bet successfully added to line value bets, _id: 82eec57d362772d9bc86e93bf12773fb
+2023-05-01 09:38:04,081 - __main__ - INFO - Value bet successfully added to line value bets, _id: 86ae0817f56da55ae584896b8b6e4fca
+2023-05-01 09:38:04,504 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7b6ce91196e1fff100737f5d43219430
+2023-05-01 09:38:04,928 - __main__ - INFO - Value bet successfully added to line value bets, _id: 486d043745aacbf9bf5c845943d9650d
+2023-05-01 09:38:05,354 - __main__ - INFO - Value bet successfully added to line value bets, _id: 089d9b561e73d380dbadb36ee6b88b9f
+2023-05-01 09:38:06,152 - __main__ - INFO - Value bet successfully added to line value bets, _id: 9997c768a76764235190716104d921f4
+2023-05-01 09:38:06,966 - __main__ - INFO - Value bet successfully added to line value bets, _id: 93b153a763e9587eb898c9341b8d71f4
+2023-05-01 09:38:07,387 - __main__ - INFO - Value bet successfully added to line value bets, _id: 5ca92b5f0422c6517089fb211d0f1978
+2023-05-01 09:38:07,808 - __main__ - INFO - Value bet successfully added to line value bets, _id: 1512bcc68f470909fbea029333c887a6
+2023-05-01 09:38:08,246 - __main__ - INFO - Value bet successfully added to line value bets, _id: 5ad43b9274824d8986bc3f05bbd00a2e
+2023-05-01 09:38:09,052 - __main__ - INFO - Value bet successfully added to line value bets, _id: 886cfc6d9f2fd601180ea88b2da4f1f8
+2023-05-01 09:38:09,055 - __main__ - INFO - Fetching matches for 07/05/23
+2023-05-01 09:39:23,454 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:39:23,458 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:39:24,282 - __main__ - INFO - Value bet successfully added to line value bets, _id: cb05dce206c08b407bdd1034a5f703f5
+2023-05-01 09:39:24,713 - __main__ - INFO - Value bet successfully added to line value bets, _id: f8cbbf5202d39bedbf1a37311a9c11f2
+2023-05-01 09:39:25,126 - __main__ - INFO - Value bet successfully added to line value bets, _id: dad3bfecd4483f7c9a12f7c7f16ef59e
+2023-05-01 09:39:25,548 - __main__ - INFO - Value bet successfully added to line value bets, _id: 89bf45b9143355c454a0fa610051d0de
+2023-05-01 09:39:25,959 - __main__ - INFO - Value bet successfully added to line value bets, _id: 2724b0488907c6634574da79db1d47dd
+2023-05-01 09:39:26,782 - __main__ - INFO - Value bet successfully added to line value bets, _id: 8a3e5df601d73dfb212c68d79bf0557e
+2023-05-01 09:39:27,602 - __main__ - INFO - Value bet successfully added to line value bets, _id: 013b6599eddeed11b6bcebbf2a922db5
+2023-05-01 09:39:28,449 - __main__ - INFO - Value bet successfully added to line value bets, _id: a00961b5fc9f2eba15b9fae9effe6b87
+2023-05-01 09:39:28,891 - __main__ - INFO - Value bet successfully added to line value bets, _id: db10c11896d6b6fd7b0e1e18dbf15a21
+2023-05-01 09:39:29,303 - __main__ - INFO - Value bet successfully added to line value bets, _id: 0bd598f40b2d8bceac018e00545db2df
+2023-05-01 09:39:30,123 - __main__ - INFO - Value bet successfully added to line value bets, _id: af6033b1a069e5a777a167952f9ce6f5
+2023-05-01 09:39:32,197 - __main__ - INFO - Value bet successfully added to line value bets, _id: 8010eef7a4b2d07469240bbdde4827d5
+2023-05-01 09:39:32,626 - __main__ - INFO - Value bet successfully added to line value bets, _id: be975271ce1260b2b4e03053006696a7
+2023-05-01 09:39:33,047 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6634f5dca6df0595c9fc26c18dd9970b
+2023-05-01 09:39:33,461 - __main__ - INFO - Value bet successfully added to line value bets, _id: 248fe335fb22e425c9669c8e4b364447
+2023-05-01 09:39:33,927 - __main__ - INFO - Value bet successfully added to line value bets, _id: b96c66312164921655f5dafeaf811d38
+2023-05-01 09:39:34,359 - __main__ - INFO - Value bet successfully added to line value bets, _id: 9dbf8547a698ec39f1b173f6edd44d81
+2023-05-01 09:39:34,790 - __main__ - INFO - Value bet successfully added to line value bets, _id: 030cc906b7b13445c41e1d7078bb4d11
+2023-05-01 09:39:35,214 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6e37108d606025f1d907a4f3a776ea40
+2023-05-01 09:39:35,622 - __main__ - INFO - Value bet successfully added to line value bets, _id: e5fcf03c50601469e7dc1a178ff01810
+2023-05-01 09:39:36,047 - __main__ - INFO - Value bet successfully added to line value bets, _id: c659ed764c8e0dd239d3196b95de102c
+2023-05-01 09:39:36,049 - __main__ - INFO - Fetching matches for 08/05/23
+2023-05-01 09:40:04,368 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:04,371 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:40:04,772 - __main__ - INFO - Value bet successfully added to line value bets, _id: b64a8010a8cb4919779d66a880ba832c
+2023-05-01 09:40:05,182 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7e2b7320aa80ed099f2514b98fece160
+2023-05-01 09:40:05,593 - __main__ - INFO - Value bet successfully added to line value bets, _id: 36eab8645937af1088fc2a8b5bbfc3c2
+2023-05-01 09:40:06,020 - __main__ - INFO - Value bet successfully added to line value bets, _id: fb44387b521643617248e17b2c490c23
+2023-05-01 09:40:06,459 - __main__ - INFO - Value bet successfully added to line value bets, _id: b86d47820ff7c3ae29ff0e219918bbc2
+2023-05-01 09:40:06,880 - __main__ - INFO - Value bet successfully added to line value bets, _id: e1ba1e06919e4755594d885536ce5681
+2023-05-01 09:40:08,081 - __main__ - INFO - Value bet successfully added to line value bets, _id: af432df61617aa8f9dd550f1c2e73af7
+2023-05-01 09:40:08,901 - __main__ - INFO - Value bet successfully added to line value bets, _id: cbaa699c7117a357a9a673bbc6a7bb26
+2023-05-01 09:40:09,340 - __main__ - INFO - Value bet successfully added to line value bets, _id: 51c613a7466253bc9d3357ea6b6bf4d6
+2023-05-01 09:40:10,177 - __main__ - INFO - Value bet successfully added to line value bets, _id: df8672820b23499ea1544ad3eb0565e8
+2023-05-01 09:40:10,179 - __main__ - INFO - Fetching matches for 09/05/23
+2023-05-01 09:40:11,552 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:11,554 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:40:13,181 - __main__ - INFO - Value bet successfully added to line value bets, _id: 3e1bfaf9ebcf4208ad0bdcec92487ad7
+2023-05-01 09:40:13,183 - __main__ - INFO - Fetching matches for 10/05/23
+2023-05-01 09:40:14,096 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:14,098 - __main__ - INFO - No matches on 10/05/23
+2023-05-01 09:40:14,098 - __main__ - INFO - Fetching matches for 11/05/23
+2023-05-01 09:40:19,021 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:19,023 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:40:19,439 - __main__ - INFO - Value bet successfully added to line value bets, _id: bddd374cd35bce8dd32f9b286cd0976a
+2023-05-01 09:40:19,908 - __main__ - INFO - Value bet successfully added to line value bets, _id: f1ffc407d5ef01134eba628dbc3d80b9
+2023-05-01 09:40:19,910 - __main__ - INFO - Fetching matches for 12/05/23
+2023-05-01 09:40:20,640 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:20,643 - __main__ - INFO - No matches on 12/05/23
+2023-05-01 09:40:20,645 - __main__ - INFO - Fetching matches for 13/05/23
+2023-05-01 09:40:24,863 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:24,865 - __main__ - INFO - No matches on 13/05/23
+2023-05-01 09:40:24,866 - __main__ - INFO - Fetching matches for 14/05/23
+2023-05-01 09:40:28,289 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:28,291 - __main__ - INFO - No matches on 14/05/23
+2023-05-01 09:40:28,291 - __main__ - INFO - Fetching matches for 15/05/23
+2023-05-01 09:40:28,844 - __main__ - INFO - No matches on 15/05/23
+2023-05-01 09:40:28,846 - __main__ - INFO - Fetching matches for 16/05/23
+2023-05-01 09:40:29,329 - __main__ - INFO - No matches on 16/05/23
+2023-05-01 09:40:29,330 - __main__ - INFO - Fetching matches for 17/05/23
+2023-05-01 09:40:29,742 - __main__ - INFO - No matches on 17/05/23
+2023-05-01 09:40:29,744 - __main__ - INFO - Fetching matches for 18/05/23
+2023-05-01 09:40:30,153 - __main__ - INFO - No matches on 18/05/23
+2023-05-01 09:40:30,155 - __main__ - INFO - Fetching matches for 19/05/23
+2023-05-01 09:40:30,603 - __main__ - INFO - No matches on 19/05/23
+2023-05-01 09:40:30,606 - __main__ - INFO - Fetching matches for 20/05/23
+2023-05-01 09:40:31,008 - __main__ - INFO - No matches on 20/05/23
+2023-05-01 09:40:31,009 - __main__ - INFO - Fetching matches for 21/05/23
+2023-05-01 09:40:31,402 - __main__ - INFO - No matches on 21/05/23
+2023-05-01 09:40:31,403 - __main__ - INFO - Fetching matches for 22/05/23
+2023-05-01 09:40:31,809 - __main__ - INFO - No matches on 22/05/23
+2023-05-01 09:40:31,811 - __main__ - INFO - Fetching matches for 23/05/23
+2023-05-01 09:40:32,205 - __main__ - INFO - No matches on 23/05/23
+2023-05-01 09:40:32,207 - __main__ - INFO - Fetching matches for 24/05/23
+2023-05-01 09:40:32,710 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:32,712 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:40:33,130 - __main__ - INFO - Value bet successfully added to line value bets, _id: 911d5d23ffe04128298687cc7e9e6280
+2023-05-01 09:40:33,132 - __main__ - INFO - Fetching matches for 25/05/23
+2023-05-01 09:40:33,542 - __main__ - INFO - No matches on 25/05/23
+2023-05-01 09:40:33,543 - __main__ - INFO - Fetching matches for 26/05/23
+2023-05-01 09:40:33,951 - __main__ - INFO - No matches on 26/05/23
+2023-05-01 09:40:33,953 - __main__ - INFO - Fetching matches for 27/05/23
+2023-05-01 09:40:34,368 - __main__ - INFO - No matches on 27/05/23
+2023-05-01 09:40:34,370 - __main__ - INFO - Fetching matches for 28/05/23
+2023-05-01 09:40:34,768 - __main__ - INFO - No matches on 28/05/23
+2023-05-01 09:40:34,770 - __main__ - INFO - Fetching matches for 29/05/23
+2023-05-01 09:40:35,268 - __main__ - INFO - No matches on 29/05/23
+2023-05-01 09:40:35,271 - __main__ - INFO - Fetching matches for 30/05/23
+2023-05-01 09:40:35,662 - __main__ - INFO - No matches on 30/05/23
+2023-05-01 09:40:35,664 - __main__ - INFO - Fetching matches for 01/05/23
+2023-05-01 09:40:40,701 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:40,703 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:40:41,207 - __main__ - INFO - Value bet successfully added to line value bets, _id: a17a684227b8aaa9af09e4a5f1c9cb4d
+2023-05-01 09:40:42,027 - __main__ - INFO - Value bet successfully added to line value bets, _id: fc27200b68d99447a22a890423604095
+2023-05-01 09:40:42,442 - __main__ - INFO - Value bet successfully added to line value bets, _id: 41af28d68ba1ba9530c86641b5c2e22a
+2023-05-01 09:40:43,068 - __main__ - INFO - Value bet successfully added to line value bets, _id: 155f42811f5353ecfbe1af58d309e94b
+2023-05-01 09:40:43,767 - __main__ - INFO - Value bet successfully added to line value bets, _id: 8d9afc1b76dd89fc93b288639bf2bbaf
+2023-05-01 09:40:44,422 - __main__ - INFO - Value bet successfully added to line value bets, _id: 2d6f8045b7191c6eb5bac5d20714b67b
+2023-05-01 09:40:45,039 - __main__ - INFO - Value bet successfully added to line value bets, _id: 86a7319f16539e1ff70d58fb521eec29
+2023-05-01 09:40:45,461 - __main__ - INFO - Value bet successfully added to line value bets, _id: 9056ac6d4c28299bd061f362a6418a64
+2023-05-01 09:40:45,463 - __main__ - INFO - Fetching matches for 02/05/23
+2023-05-01 09:40:48,585 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:40:48,587 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:40:49,228 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7316e0d76546fe53e0ab0fba4f6ba498
+2023-05-01 09:40:49,889 - __main__ - INFO - Value bet successfully added to line value bets, _id: 3b2df95f13e9c54e85c36935556e55e3
+2023-05-01 09:40:50,715 - __main__ - INFO - Value bet successfully added to line value bets, _id: c3b9f3410951f1b85ba2f58785ddf0d7
+2023-05-01 09:40:50,717 - __main__ - INFO - Fetching matches for 03/05/23
+2023-05-01 09:41:01,008 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:41:01,010 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:41:01,421 - __main__ - INFO - Value bet successfully added to line value bets, _id: fc9233e01e054c68e001921e23882404
+2023-05-01 09:41:02,062 - __main__ - INFO - Value bet successfully added to line value bets, _id: c8ea7ae1ea748dc7932a01a3c7f6c7b5
+2023-05-01 09:41:02,814 - __main__ - INFO - Value bet successfully added to line value bets, _id: a7ac8e7114179e63e1890e291c048bf6
+2023-05-01 09:41:03,242 - __main__ - INFO - Value bet successfully added to line value bets, _id: 9618b57439456291f98400bb2dbb92f2
+2023-05-01 09:41:03,861 - __main__ - INFO - Value bet successfully added to line value bets, _id: c81f243ee4b357d1982e25ee69983b7a
+2023-05-01 09:41:04,566 - __main__ - INFO - Value bet successfully added to line value bets, _id: a6ba127a3d2e2fe81a72509a2cf212aa
+2023-05-01 09:41:05,199 - __main__ - INFO - Value bet successfully added to line value bets, _id: b50e7e37f8cf5019cf85bf37aa79da33
+2023-05-01 09:41:05,988 - __main__ - INFO - Value bet successfully added to line value bets, _id: 075a7cf6fb20b190836b4d8761cf1ec5
+2023-05-01 09:41:06,705 - __main__ - INFO - Value bet successfully added to line value bets, _id: ef1236da501c08d7a0eca6f8732fde0d
+2023-05-01 09:41:07,422 - __main__ - INFO - Value bet successfully added to line value bets, _id: f1543f1bec5b6cae008aae9b1fa1d180
+2023-05-01 09:41:08,078 - __main__ - INFO - Value bet successfully added to line value bets, _id: 58197fc33e52fe835e8b2c3e85d0361b
+2023-05-01 09:41:08,740 - __main__ - INFO - Value bet successfully added to line value bets, _id: 299d9931d3f8aae34d110eb98f443a4c
+2023-05-01 09:41:09,389 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7e1afae424c4b38daf01dd070cd8d077
+2023-05-01 09:41:10,061 - __main__ - INFO - Value bet successfully added to line value bets, _id: a70aa1dd823cc9bb761dab7687b17663
+2023-05-01 09:41:10,700 - __main__ - INFO - Value bet successfully added to line value bets, _id: 8dd13b230469acf04c05fcde7aa2afdd
+2023-05-01 09:41:11,381 - __main__ - INFO - Value bet successfully added to line value bets, _id: 413cbd7d4c29018b23a311e70e3fbf37
+2023-05-01 09:41:12,042 - __main__ - INFO - Value bet successfully added to line value bets, _id: 784ca4d2b3050665562481f2baf8efe1
+2023-05-01 09:41:12,849 - __main__ - INFO - Value bet successfully added to line value bets, _id: 5fef9622cc7c18d7bb417d046dd29722
+2023-05-01 09:41:13,581 - __main__ - INFO - Value bet successfully added to line value bets, _id: 8fdbe3db2d0c61784c4f01f9dc45188b
+2023-05-01 09:41:14,200 - __main__ - INFO - Value bet successfully added to line value bets, _id: aebfef7c8935fd4ebc04bec690983c6a
+2023-05-01 09:41:14,202 - __main__ - INFO - Fetching matches for 04/05/23
+2023-05-01 09:41:15,497 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:41:15,498 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:41:16,125 - __main__ - INFO - Value bet successfully added to line value bets, _id: e69c0de8f9218added01540a5a4f5713
+2023-05-01 09:41:16,843 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6e128c216068d03b0fcdae817eba729a
+2023-05-01 09:41:16,844 - __main__ - INFO - Fetching matches for 05/05/23
+2023-05-01 09:41:23,999 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:41:24,000 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:41:24,419 - __main__ - INFO - Value bet successfully added to line value bets, _id: 16ca957e865869ac62bcedb9ff6aaea8
+2023-05-01 09:41:24,833 - __main__ - INFO - Value bet successfully added to line value bets, _id: 26fec240f15232c24ebcbcd05cd11424
+2023-05-01 09:41:24,835 - __main__ - INFO - Fetching matches for 06/05/23
+2023-05-01 09:42:43,490 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:42:43,493 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:42:43,904 - __main__ - INFO - Value bet successfully added to line value bets, _id: 2de66dc996ba062d94931b2b1ccece9d
+2023-05-01 09:42:44,315 - __main__ - INFO - Value bet successfully added to line value bets, _id: a202980731c430590bf15317ee45fa43
+2023-05-01 09:42:44,964 - __main__ - INFO - Value bet successfully added to line value bets, _id: 486d043745aacbf9bf5c845943d9650d
+2023-05-01 09:42:45,605 - __main__ - INFO - Value bet successfully added to line value bets, _id: 089d9b561e73d380dbadb36ee6b88b9f
+2023-05-01 09:42:46,035 - __main__ - INFO - Value bet successfully added to line value bets, _id: f3310adb19893d0bfc8a52226ea9193d
+2023-05-01 09:42:46,855 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7cfcde746bf1dddb455156a7f4f0a855
+2023-05-01 09:42:47,887 - __main__ - INFO - Value bet successfully added to line value bets, _id: 93b153a763e9587eb898c9341b8d71f4
+2023-05-01 09:42:47,893 - __main__ - INFO - Fetching matches for 07/05/23
+2023-05-01 09:43:14,076 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:14,078 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:43:14,752 - __main__ - INFO - Value bet successfully added to line value bets, _id: cb05dce206c08b407bdd1034a5f703f5
+2023-05-01 09:43:15,170 - __main__ - INFO - Value bet successfully added to line value bets, _id: dd202326463f3985eb78cdf0280f1959
+2023-05-01 09:43:15,806 - __main__ - INFO - Value bet successfully added to line value bets, _id: be975271ce1260b2b4e03053006696a7
+2023-05-01 09:43:16,598 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6634f5dca6df0595c9fc26c18dd9970b
+2023-05-01 09:43:17,314 - __main__ - INFO - Value bet successfully added to line value bets, _id: 248fe335fb22e425c9669c8e4b364447
+2023-05-01 09:43:17,934 - __main__ - INFO - Value bet successfully added to line value bets, _id: b96c66312164921655f5dafeaf811d38
+2023-05-01 09:43:18,566 - __main__ - INFO - Value bet successfully added to line value bets, _id: 9dbf8547a698ec39f1b173f6edd44d81
+2023-05-01 09:43:18,568 - __main__ - INFO - Fetching matches for 08/05/23
+2023-05-01 09:43:24,999 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:25,002 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:43:25,607 - __main__ - INFO - Value bet successfully added to line value bets, _id: b64a8010a8cb4919779d66a880ba832c
+2023-05-01 09:43:26,326 - __main__ - INFO - Value bet successfully added to line value bets, _id: af432df61617aa8f9dd550f1c2e73af7
+2023-05-01 09:43:27,042 - __main__ - INFO - Value bet successfully added to line value bets, _id: cbaa699c7117a357a9a673bbc6a7bb26
+2023-05-01 09:43:27,467 - __main__ - INFO - Value bet successfully added to line value bets, _id: 10e57dc5355722ffa6fe2aeea3195269
+2023-05-01 09:43:27,964 - __main__ - INFO - Value bet successfully added to line value bets, _id: b99dffdf36044db337098549d3991046
+2023-05-01 09:43:27,967 - __main__ - INFO - Fetching matches for 09/05/23
+2023-05-01 09:43:28,478 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:28,480 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:43:28,481 - __main__ - INFO - Fetching matches for 10/05/23
+2023-05-01 09:43:28,894 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:28,896 - __main__ - INFO - No matches on 10/05/23
+2023-05-01 09:43:28,897 - __main__ - INFO - Fetching matches for 11/05/23
+2023-05-01 09:43:30,145 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:30,147 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:43:30,565 - __main__ - INFO - Value bet successfully added to line value bets, _id: 74c888d3addcfa9c4e7f9a3321f60cef
+2023-05-01 09:43:30,568 - __main__ - INFO - Fetching matches for 12/05/23
+2023-05-01 09:43:31,494 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:31,496 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:43:31,497 - __main__ - INFO - Fetching matches for 13/05/23
+2023-05-01 09:43:32,894 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:32,897 - __main__ - INFO - No matches on 13/05/23
+2023-05-01 09:43:32,897 - __main__ - INFO - Fetching matches for 14/05/23
+2023-05-01 09:43:33,914 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:33,916 - __main__ - INFO - No matches on 14/05/23
+2023-05-01 09:43:33,917 - __main__ - INFO - Fetching matches for 15/05/23
+2023-05-01 09:43:34,318 - __main__ - INFO - No matches on 15/05/23
+2023-05-01 09:43:34,320 - __main__ - INFO - Fetching matches for 16/05/23
+2023-05-01 09:43:34,845 - __main__ - INFO - No matches on 16/05/23
+2023-05-01 09:43:34,848 - __main__ - INFO - Fetching matches for 17/05/23
+2023-05-01 09:43:35,294 - __main__ - INFO - No matches on 17/05/23
+2023-05-01 09:43:35,296 - __main__ - INFO - Fetching matches for 18/05/23
+2023-05-01 09:43:35,697 - __main__ - INFO - No matches on 18/05/23
+2023-05-01 09:43:35,699 - __main__ - INFO - Fetching matches for 19/05/23
+2023-05-01 09:43:36,097 - __main__ - INFO - No matches on 19/05/23
+2023-05-01 09:43:36,098 - __main__ - INFO - Fetching matches for 20/05/23
+2023-05-01 09:43:36,489 - __main__ - INFO - No matches on 20/05/23
+2023-05-01 09:43:36,491 - __main__ - INFO - Fetching matches for 21/05/23
+2023-05-01 09:43:36,895 - __main__ - INFO - No matches on 21/05/23
+2023-05-01 09:43:36,897 - __main__ - INFO - Fetching matches for 22/05/23
+2023-05-01 09:43:37,294 - __main__ - INFO - No matches on 22/05/23
+2023-05-01 09:43:37,297 - __main__ - INFO - Fetching matches for 23/05/23
+2023-05-01 09:43:37,694 - __main__ - INFO - No matches on 23/05/23
+2023-05-01 09:43:37,697 - __main__ - INFO - Fetching matches for 24/05/23
+2023-05-01 09:43:38,316 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:38,319 - __main__ - INFO - No matches on 24/05/23
+2023-05-01 09:43:38,320 - __main__ - INFO - Fetching matches for 25/05/23
+2023-05-01 09:43:38,715 - __main__ - INFO - No matches on 25/05/23
+2023-05-01 09:43:38,718 - __main__ - INFO - Fetching matches for 26/05/23
+2023-05-01 09:43:39,114 - __main__ - INFO - No matches on 26/05/23
+2023-05-01 09:43:39,116 - __main__ - INFO - Fetching matches for 27/05/23
+2023-05-01 09:43:39,514 - __main__ - INFO - No matches on 27/05/23
+2023-05-01 09:43:39,517 - __main__ - INFO - Fetching matches for 28/05/23
+2023-05-01 09:43:39,914 - __main__ - INFO - No matches on 28/05/23
+2023-05-01 09:43:39,916 - __main__ - INFO - Fetching matches for 29/05/23
+2023-05-01 09:43:40,314 - __main__ - INFO - No matches on 29/05/23
+2023-05-01 09:43:40,316 - __main__ - INFO - Fetching matches for 30/05/23
+2023-05-01 09:43:40,714 - __main__ - INFO - No matches on 30/05/23
+2023-05-01 09:43:40,997 - __main__ - INFO - 181 value bets for upcoming football matches were found and added to db
+2023-05-01 09:43:40,999 - __main__ - INFO - Finding Value bets ...
+2023-05-01 09:43:41,000 - __main__ - INFO - Fetching matches for 01/05/23
+2023-05-01 09:43:46,951 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:43:46,955 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:43:47,625 - __main__ - INFO - Value bet successfully added to line value bets, _id: 330aa743703de5309e8cde1a99323571
+2023-05-01 09:43:48,252 - __main__ - INFO - Value bet successfully added to line value bets, _id: fc27200b68d99447a22a890423604095
+2023-05-01 09:43:48,897 - __main__ - INFO - Value bet successfully added to line value bets, _id: e34423f0c969c0a2c88747d4a48864ee
+2023-05-01 09:43:49,589 - __main__ - INFO - Value bet successfully added to line value bets, _id: 478cc76477fea56183c9c0435d71bc49
+2023-05-01 09:43:50,654 - __main__ - INFO - Value bet successfully added to line value bets, _id: 9f11afe1dcedcd4d6196d63a2800252b
+2023-05-01 09:43:51,708 - __main__ - INFO - Value bet successfully added to line value bets, _id: 26cf1243b88be7ab791e7632744160bc
+2023-05-01 09:43:53,049 - __main__ - INFO - Value bet successfully added to line value bets, _id: b60b70ef3235246ebcb9717679fcaf9f
+2023-05-01 09:43:53,676 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6d8296d9dd73458551c296850bcb2d2a
+2023-05-01 09:43:54,384 - __main__ - INFO - Value bet successfully added to line value bets, _id: 155f42811f5353ecfbe1af58d309e94b
+2023-05-01 09:43:55,014 - __main__ - INFO - Value bet successfully added to line value bets, _id: 8d9afc1b76dd89fc93b288639bf2bbaf
+2023-05-01 09:43:55,708 - __main__ - INFO - Value bet successfully added to line value bets, _id: 2d6f8045b7191c6eb5bac5d20714b67b
+2023-05-01 09:43:56,636 - __main__ - INFO - Value bet successfully added to line value bets, _id: 86a7319f16539e1ff70d58fb521eec29
+2023-05-01 09:43:57,273 - __main__ - INFO - Value bet successfully added to line value bets, _id: edb6575282f755e109f851517d58b900
+2023-05-01 09:43:57,897 - __main__ - INFO - Value bet successfully added to line value bets, _id: 2514219543eeab0c3fad01de6468ea0c
+2023-05-01 09:43:58,720 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7410f33bea1a5f96ef7eec8a8b717d52
+2023-05-01 09:43:58,722 - __main__ - INFO - Fetching matches for 02/05/23
+2023-05-01 09:44:17,489 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:44:17,492 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:44:18,152 - __main__ - INFO - Value bet successfully added to line value bets, _id: e9b3754bc9a0da15a287a1d9d9c214fa
+2023-05-01 09:44:18,793 - __main__ - INFO - Value bet successfully added to line value bets, _id: 7316e0d76546fe53e0ab0fba4f6ba498
+2023-05-01 09:44:19,424 - __main__ - INFO - Value bet successfully added to line value bets, _id: 2b56b199c3541ba2db037fd8470ad151
+2023-05-01 09:44:20,063 - __main__ - INFO - Value bet successfully added to line value bets, _id: e4d270930ad3291a28e8f7a5a03d5d81
+2023-05-01 09:44:20,706 - __main__ - INFO - Value bet successfully added to line value bets, _id: f709a8e40fda5d40d7895e3495cd321f
+2023-05-01 09:44:22,813 - __main__ - INFO - Value bet successfully added to line value bets, _id: 140371a8562a17bf325e97c2f8857dae
+2023-05-01 09:44:23,432 - __main__ - INFO - Value bet successfully added to line value bets, _id: 3b2df95f13e9c54e85c36935556e55e3
+2023-05-01 09:44:24,052 - __main__ - INFO - Value bet successfully added to line value bets, _id: c3b9f3410951f1b85ba2f58785ddf0d7
+2023-05-01 09:44:24,714 - __main__ - INFO - Value bet successfully added to line value bets, _id: 117092e755e06acf25b17d1ff7602c9f
+2023-05-01 09:44:25,352 - __main__ - INFO - Value bet successfully added to line value bets, _id: 372c7a9cb7b7282056f55f48e7de6cce
+2023-05-01 09:44:25,354 - __main__ - INFO - Fetching matches for 03/05/23
+2023-05-01 09:44:36,114 - __main__ - INFO - Adding matches to match_pair_list
+2023-05-01 09:44:36,116 - __main__ - INFO - Determining value_bets for match pairs in match_pair_list
+2023-05-01 09:44:36,780 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6f81a92619bbbcf5717c6f9c78490bb7
+2023-05-01 09:44:37,494 - __main__ - INFO - Value bet successfully added to line value bets, _id: 6ce7343d300e697106d52006ae2b9dda
+2023-05-01 09:44:38,174 - __main__ - INFO - Value bet successfully added to line value bets, _id: c8ea7ae1ea748dc7932a01a3c7f6c7b5
+2023-05-01 09:44:38,849 - __main__ - INFO - Value bet successfully added to line value bets, _id: a7ac8e7114179e63e1890e291c048bf6
