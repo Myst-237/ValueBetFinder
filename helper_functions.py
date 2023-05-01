@@ -217,7 +217,7 @@ def compare_markets(match1: dict, match2: dict, bookmaker1: str, bookmaker2: str
         
         if isinstance(v, list):
             
-            if k == "teams" or k == "To Keep Clean Sheet":
+            if (k == "teams" or k == "HT-FT"):
                 pass
             else:
                 if len(v) == len(match2[k]):
@@ -226,7 +226,8 @@ def compare_markets(match1: dict, match2: dict, bookmaker1: str, bookmaker2: str
                     final_match[k] = False
                     
         elif isinstance(v, dict):
-            final_match[k] = compare_markets(v, match2[k], bookmaker1, bookmaker2)
+            if k != "Correct Score":
+                final_match[k] = compare_markets(v, match2[k], bookmaker1, bookmaker2)
 
     return final_match
 
