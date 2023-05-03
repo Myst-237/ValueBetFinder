@@ -193,8 +193,8 @@ def compare_markets(match1: dict, match2: dict, bookmaker1: str, bookmaker2: str
         final_match["sport_name"] = match1["sport_name"]
         final_match["competition"] = match1["competition"]
         final_match["teams"] = match1["teams"]
-        final_match["date"] = match1["date"]
-        final_match["time"] = match1["time"]
+        final_match["date"] = f'{match1["date"]} | {match2["date"]}'
+        final_match["time"] = f'{match1["time"]} | {match2["time"]}'
         final_match["is_live"] = match1["is_live"]
         now = datetime.utcnow()
         date = now.strftime("%d/%m/%y")
