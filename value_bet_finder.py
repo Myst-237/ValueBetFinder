@@ -93,7 +93,7 @@ class ValueBetFinder:
     def _find_value_bets_and_update_db(self, collection_pair: Tuple[Collection, Collection]) -> list:
         
         """ 
-        Accepts a Tupple of Collections and returns a list of all value bets found in the collections within the next 30 days
+        Accepts a Tupple of Collections and returns a list of all value bets found in the collections within the next 7 days
         The first collection in the pair is the pinnacle collection
         """
         
@@ -101,7 +101,7 @@ class ValueBetFinder:
         #now_minus_one_hour = now - timedelta(hours=1)
         date_string = now.strftime("%d/%m/%y")
         ids_of_updated_value_bets = []
-        date_range = 30
+        date_range = 7
         if self.line == 1:
             date_range = 1
 
