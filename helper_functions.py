@@ -149,7 +149,7 @@ def compare_market(market1: list, market2: list, bookmaker1: str, bookmaker2: st
         value_bets = []
         for i in range(0, len(market1)):
             if market2[i] >= market1[i]+0.05:
-                value_bets.append({"Condition": str(i), bookmaker1: market1[i], bookmaker2: market2[i], "ROI": str((market2[i] - market1[i])*100)+'%'})
+                value_bets.append({"Condition": str(i), bookmaker1: market1[i], bookmaker2: market2[i], "ROI": str(((market2[i]/market1[i]) - 1)*100)+'%'})
         return value_bets
     else:
         raise AttributeError('compare_market, market1 and market2 should have thesame length')
