@@ -13,9 +13,10 @@ match_db = client["BookieMarkets"]
 value_db = client["ValueBets"]
 xbet_football_collection = match_db["xbet_line_football_collection"]
 stake_football_collection = match_db["stake_line_football_collection"]
+megapari_football_collection = match_db["megapari_line_football_collection"]
 pinnacle_football_collection = match_db["pinnacle_line_football_collection"]
 football_value_bet_collection =  value_db["football_line_value_bet_collection"]
-paired_collections = [(pinnacle_football_collection, xbet_football_collection), (pinnacle_football_collection, stake_football_collection)]
+paired_collections = [(pinnacle_football_collection, xbet_football_collection), (pinnacle_football_collection, stake_football_collection), (pinnacle_football_collection, megapari_football_collection)]
 
 value_bet_finder = ValueBetFinder(
                         paired_collections=paired_collections, 
