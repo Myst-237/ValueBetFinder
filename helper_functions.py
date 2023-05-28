@@ -1,6 +1,7 @@
 from typing import Tuple, Callable, List, Union
 from datetime import datetime
 import hashlib
+from thefuzz import fuzz
 
 def equalize_matches(match1: dict, match2: dict) -> Tuple[dict, dict]:
     """
@@ -148,7 +149,7 @@ def compare_market(market1: list, market2: list, bookmaker1: str, bookmaker2: st
     if len(market1) == len(market2):
         value_bets = []
         for i in range(0, len(market1)):
-            if market2[i] >= market1[i]+0.05:
+            if market2[i] >= market1[i]+0.02 and 1.7 <= market2[i] and market1[i] <= 2.3:
                 value_bets.append({"Condition": str(i), bookmaker1: market1[i], bookmaker2: market2[i], "ROI": str(((market2[i]/market1[i]) - 1)*100)+'%'})
         return value_bets
     else:
@@ -188,11 +189,11 @@ def compare_markets(match1: dict, match2: dict, bookmaker1: str, bookmaker2: str
     
     if "_id" in match1.keys():
         final_match["_id"] = hashlib.md5(( match1["_id"]+match1["bookmaker_name"] + match2["bookmaker_name"]).encode()).hexdigest()
-        final_match["match_id"] = match1["_id"]
         final_match["bookmaker_name"] = match1["bookmaker_name"] + " - "+ match2["bookmaker_name"]
+        final_match["match_id"] = match1["_id"] + ' - ' + match2["_id"]
+        final_match["teams"] = str(match1["teams"]) + ' - ' + str(match2["teams"])
         final_match["sport_name"] = match1["sport_name"]
         final_match["competition"] = match1["competition"]
-        final_match["teams"] = match1["teams"]
         final_match["date"] = f'{match1["date"]} | {match2["date"]}'
         final_match["time"] = f'{match1["time"]} | {match2["time"]}'
         final_match["is_live"] = match1["is_live"]
@@ -247,4 +248,28 @@ def remove_false_fields(input_dict: dict) -> dict:
         ]
     else:
         return input_dict
+
+def find_similar_football_match(match_list: list, match: dict) -> dict:
+    """
+    Find the most similar match from a list of football matches
+
+    Args:
+    - match_list (list): A list of dict representing the football matches.
+    - match (dict): the target football match
+
+    Returns:
+    - dict: The most similar football match
+    """
+    best_match = None
+    best_ratio = 0
     
+    for _match in match_list:
+        
+        ratio = fuzz.token_sort_ratio((_match["teams"][0]+' vs '+_match["teams"][1]).lower(), (match["teams"][0]+' vs '+match["teams"][1]).lower())
+        if ratio > best_ratio:
+            best_ratio = ratio
+            best_match = _match
+        if best_ratio >= 99:
+            break
+    
+    return best_match
