@@ -151,21 +151,21 @@ class ValueBetFinder:
         
         match_pair_list = []
         now = datetime.utcnow()
-        #now_plus_two_hours = now + timedelta(hours=2)
+        now_plus_two_hours = now + timedelta(hours=2)
         
         collection1_matches = list(collection_pair[0].find({"date": date_string, "competition": competition}))
         collection2_matches = list(collection_pair[1].find({"date": date_string, "competition": competition}))
         
         if len(collection1_matches) <= len(collection2_matches):
             for _match1 in collection1_matches:
-                if _match1['date'] ==  now.strftime("%d/%m/%y") and now.strftime("%H:%M") > _match1['time']:
+                if _match1['date'] ==  now.strftime("%d/%m/%y") and now_plus_two_hours.strftime("%H:%M") > _match1['time']:
                     pass
                 else:
                     _match2 = find_similar_football_match(collection2_matches, _match1)
                     match_pair_list.append((_match1, _match2))
         else:
             for _match2 in collection2_matches:
-                if _match2['date'] ==  now.strftime("%d/%m/%y") and now.strftime("%H:%M") > _match2['time']:
+                if _match2['date'] ==  now.strftime("%d/%m/%y") and now_plus_two_hours.strftime("%H:%M") > _match2['time']:
                     pass
                 else:
                     _match1 = find_similar_football_match(collection1_matches, _match2)
