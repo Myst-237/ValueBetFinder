@@ -272,4 +272,7 @@ def find_similar_football_match(match_list: list, match: dict) -> dict:
         if best_ratio >= 99:
             break
     
-    return best_match
+    if best_ratio >= 70:
+        return best_match
+    else:
+        return None
