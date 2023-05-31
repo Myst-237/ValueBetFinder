@@ -152,9 +152,11 @@ class ValueBetFinder:
         match_pair_list = []
         now = datetime.utcnow()
         now_plus_two_hours = now + timedelta(hours=2)
+        now_minus_two_hours = now - timedelta(hours=2)
         
         collection1_matches = list(collection_pair[0].find({"date": date_string, "competition": competition}))
         collection2_matches = list(collection_pair[1].find({"date": date_string, "competition": competition}))
+        time_format = '%H:%M:%S'
         
         if len(collection1_matches) <= len(collection2_matches):
             for _match1 in collection1_matches:
@@ -162,14 +164,22 @@ class ValueBetFinder:
                     pass
                 else:
                     _match2 = find_similar_football_match(collection2_matches, _match1)
-                    match_pair_list.append((_match1, _match2))
+                    if _match2:
+                        match1_last_modified_time = datetime.strptime(_match1['last_modified_time'], time_format).time()
+                        match2_last_modified_time = datetime.strptime(_match2['last_modified_time'], time_format).time()
+                        if match1_last_modified_time > now_minus_two_hours.time() and  match2_last_modified_time > now_minus_two_hours.time():
+                            match_pair_list.append((_match1, _match2))
         else:
             for _match2 in collection2_matches:
                 if _match2['date'] ==  now.strftime("%d/%m/%y") and now_plus_two_hours.strftime("%H:%M") > _match2['time']:
                     pass
                 else:
                     _match1 = find_similar_football_match(collection1_matches, _match2)
-                    match_pair_list.append((_match1, _match2))
+                    if _match1:
+                        match1_last_modified_time = datetime.strptime(_match1['last_modified_time'], time_format).time()
+                        match2_last_modified_time = datetime.strptime(_match2['last_modified_time'], time_format).time()
+                        if match1_last_modified_time > now_minus_two_hours.time() and  match2_last_modified_time > now_minus_two_hours.time():
+                            match_pair_list.append((_match1, _match2))
                 
         for match_pair in match_pair_list:
             
@@ -194,7 +204,7 @@ class ValueBetFinder:
                                 self.ids_of_updated_value_bets.append(final_match['_id'])
                                 self.logger.info(f"Value bet successfully added to line value bets, competition: {competition}, date: {date_string}")
                             else:
-                                self.logger.error(f"An exception of type {type(e).__name__} occurred while adding a match to the value collection: {str(e)}")
+                                self.logger.error(f"A Value bet could not be added to database: {final_match}, result: {result}")
                 
             except Exception as e:
                 self.logger.error(f"An exception of type {type(e).__name__} occurred while comparing markets in match_pair: {str(e)}")
