@@ -32,16 +32,16 @@ class WebScraperLogger:
         self.logger.addHandler(file_handler)
         
         # create socket handler to send logs to logging software
-        try:
-            logging_server = 'logs2.papertrailapp.com'
-            logging_port = 37343
-            socket_handler = logging.handlers.SysLogHandler(address=(logging_server, logging_port))
-            #socket_handler = logging.handlers.SocketHandler(logging_server, logging_port)
-            socket_handler.setLevel(logging.DEBUG)
-            socket_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
-            self.logger.addHandler(socket_handler)
-        except socket.error:
-            pass
+        # try:
+        #     logging_server = 'logs2.papertrailapp.com'
+        #     logging_port = 37343
+        #     socket_handler = logging.handlers.SysLogHandler(address=(logging_server, logging_port))
+        #     #socket_handler = logging.handlers.SocketHandler(logging_server, logging_port)
+        #     socket_handler.setLevel(logging.DEBUG)
+        #     socket_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+        #     self.logger.addHandler(socket_handler)
+        # except socket.error:
+        #     pass
         
     def debug(self, message):
             self.logger.debug(message)

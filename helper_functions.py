@@ -149,7 +149,7 @@ def compare_market(market1: list, market2: list, bookmaker1: str, bookmaker2: st
     if len(market1) == len(market2):
         value_bets = []
         for i in range(0, len(market1)):
-            if market2[i] >= market1[i]+0.02 and 1.7 <= market2[i] and market1[i] <= 2.3 and (((market2[i]/market1[i]) - 1)*100) <= 12:
+            if ((market2[i]/market1[i]) - 1) >= 0.02 and market2[i] >= 1.5 and market1[i] <= 2.5:
                 value_bets.append({"Condition": str(i), bookmaker1: market1[i], bookmaker2: market2[i], "ROI": str(((market2[i]/market1[i]) - 1)*100)+'%'})
         return value_bets
     else:
@@ -272,7 +272,7 @@ def find_similar_football_match(match_list: list, match: dict) -> dict:
         if best_ratio >= 99:
             break
     
-    if best_ratio >= 70:
+    if best_ratio >= 45:
         return best_match
     else:
         return None

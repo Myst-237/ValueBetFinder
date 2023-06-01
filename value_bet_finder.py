@@ -202,7 +202,6 @@ class ValueBetFinder:
                             result = self.value_bet_collection.insert_one(final_match)
                             if result:
                                 self.ids_of_updated_value_bets.append(final_match['_id'])
-                                self.logger.info(f"Value bet successfully added to line value bets, competition: {competition}, date: {date_string}")
                             else:
                                 self.logger.error(f"A Value bet could not be added to database: {final_match}, result: {result}")
                 
