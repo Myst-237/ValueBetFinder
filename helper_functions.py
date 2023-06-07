@@ -193,7 +193,8 @@ def compare_markets(match1: dict, match2: dict, bookmaker1: str, bookmaker2: str
         final_match["match_id"] = match1["_id"] + ' - ' + match2["_id"]
         final_match["teams"] = str(match1["teams"]) + ' - ' + str(match2["teams"])
         final_match["sport_name"] = match1["sport_name"]
-        final_match["competition"] = match1["competition"]
+        final_match["country"] = match1["country"]
+        final_match["competition"] = match1["competition"] + ' - ' + match2["competition"]
         final_match["date"] = f'{match1["date"]} | {match2["date"]}'
         final_match["time"] = f'{match1["time"]} | {match2["time"]}'
         final_match["is_live"] = match1["is_live"]
@@ -265,7 +266,11 @@ def find_similar_football_match(match_list: list, match: dict) -> dict:
     
     for _match in match_list:
         
-        ratio = fuzz.token_sort_ratio((_match["teams"][0]+' vs '+_match["teams"][1]).lower(), (match["teams"][0]+' vs '+match["teams"][1]).lower())
+        ratio1 = fuzz.token_sort_ratio(_match["teams"][0].lower(), match["teams"][0].lower())
+        ratio2 = fuzz.token_sort_ratio(_match["teams"][1].lower(), match["teams"][1].lower())
+        min_ratio = min(ratio1, ratio2)
+        max_ratio = max(ratio1, ratio2)
+        ratio = 0.3*max_ratio + 0.7*min_ratio
         if ratio > best_ratio:
             best_ratio = ratio
             best_match = _match

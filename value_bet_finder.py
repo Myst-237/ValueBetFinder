@@ -110,7 +110,7 @@ class ValueBetFinder:
                 if self.thread_pool_workers == 0:
                     max_workers = len(self.competitions)
                 else:
-                    max_workers = self.thread_pool_workers - len(self.paired_collections) #len(self.paried_collections) workers have already been used above
+                    max_workers = self.thread_pool_workers/len(self.paired_collections) - 1 #len(self.paried_collections) workers have already been used above
                     if max_workers < 1:
                         raise Exception("The number of workers provided are not enough to make the search")
                 
@@ -154,32 +154,39 @@ class ValueBetFinder:
         now_plus_two_hours = now + timedelta(hours=2)
         now_minus_two_hours = now - timedelta(hours=2)
         
-        collection1_matches = list(collection_pair[0].find({"date": date_string, "competition": competition}))
-        collection2_matches = list(collection_pair[1].find({"date": date_string, "competition": competition}))
+        collection1_matches = list(collection_pair[0].find({"date": date_string, "country": competition}))
+        collection2_matches = list(collection_pair[1].find({"date": date_string, "country": competition}))
         time_format = '%H:%M:%S'
+        date_format = "%d/%m/%y"
         
         if len(collection1_matches) <= len(collection2_matches):
             for _match1 in collection1_matches:
-                if _match1['date'] ==  now.strftime("%d/%m/%y") and now_plus_two_hours.strftime("%H:%M") > _match1['time']:
+                if  datetime.strptime(_match1['last_modified_date'], date_format).date() < now.date():
+                    pass
+                elif _match1['date'] ==  now.strftime("%d/%m/%y") and now_plus_two_hours.strftime("%H:%M") > _match1['time']:
                     pass
                 else:
                     _match2 = find_similar_football_match(collection2_matches, _match1)
                     if _match2:
-                        match1_last_modified_time = datetime.strptime(_match1['last_modified_time'], time_format).time()
-                        match2_last_modified_time = datetime.strptime(_match2['last_modified_time'], time_format).time()
-                        if match1_last_modified_time > now_minus_two_hours.time() and  match2_last_modified_time > now_minus_two_hours.time():
-                            match_pair_list.append((_match1, _match2))
+                        if  datetime.strptime(_match2['last_modified_date'], date_format).date() >= now.date():
+                            match1_last_modified_time = datetime.strptime(_match1['last_modified_time'], time_format).time()
+                            match2_last_modified_time = datetime.strptime(_match2['last_modified_time'], time_format).time()
+                            if match1_last_modified_time > now_minus_two_hours.time() and  match2_last_modified_time > now_minus_two_hours.time():
+                                match_pair_list.append((_match1, _match2))
         else:
             for _match2 in collection2_matches:
-                if _match2['date'] ==  now.strftime("%d/%m/%y") and now_plus_two_hours.strftime("%H:%M") > _match2['time']:
+                if  datetime.strptime(_match2['last_modified_date'], date_format).date() < now.date():
+                    pass
+                elif _match2['date'] ==  now.strftime("%d/%m/%y") and now_plus_two_hours.strftime("%H:%M") > _match2['time']:
                     pass
                 else:
                     _match1 = find_similar_football_match(collection1_matches, _match2)
                     if _match1:
-                        match1_last_modified_time = datetime.strptime(_match1['last_modified_time'], time_format).time()
-                        match2_last_modified_time = datetime.strptime(_match2['last_modified_time'], time_format).time()
-                        if match1_last_modified_time > now_minus_two_hours.time() and  match2_last_modified_time > now_minus_two_hours.time():
-                            match_pair_list.append((_match1, _match2))
+                        if  datetime.strptime(_match1['last_modified_date'], date_format).date() >= now.date():
+                            match1_last_modified_time = datetime.strptime(_match1['last_modified_time'], time_format).time()
+                            match2_last_modified_time = datetime.strptime(_match2['last_modified_time'], time_format).time()
+                            if match1_last_modified_time > now_minus_two_hours.time() and  match2_last_modified_time > now_minus_two_hours.time():
+                                match_pair_list.append((_match1, _match2))
                 
         for match_pair in match_pair_list:
             
@@ -196,10 +203,7 @@ class ValueBetFinder:
                         final_match = remove_false_fields(compare_markets(match1, match2, match1['bookmaker_name'], match2['bookmaker_name']))
                         
                         if 'scoreboards' in final_match:
-                            existing_match = self.value_bet_collection.find_one({'_id': final_match['_id']})
-                            if existing_match:
-                                self.value_bet_collection.delete_one({'_id': final_match['_id']})
-                            result = self.value_bet_collection.insert_one(final_match)
+                            result = self.value_bet_collection.replace_one({'_id': final_match['_id']}, final_match, upsert=True)
                             if result:
                                 self.ids_of_updated_value_bets.append(final_match['_id'])
                             else:
