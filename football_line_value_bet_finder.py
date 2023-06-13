@@ -26,7 +26,7 @@ value_bet_finder = ValueBetFinder(
                         thread_pool_workers=8,
                         line=0,
                         competitions=countries,
-                        date_range=3
+                        date_range=4
                         )
 
 if __name__ == "__main__":

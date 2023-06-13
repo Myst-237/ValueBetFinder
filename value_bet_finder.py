@@ -1,5 +1,5 @@
 import datetime
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, time
 from pymongo.collection import Collection
 from typing import Tuple, List
 from helper_functions import *
@@ -84,7 +84,7 @@ class ValueBetFinder:
             self.value_bet_collection.delete_many({'_id': {'$nin': self.ids_of_updated_value_bets}})  #delete any value bet that is no longer available from the value_bet_collection
                   
         except Exception as e:
-                        self.logger.error(f"An exception of type {type(e).__name__} occurred while running find_value_bets_and_update_db: {str(e)}")
+            self.logger.error(f"An exception of type {type(e).__name__} occurred while running find_value_bets_and_update_db: {str(e)}")
         
         return len(self.ids_of_updated_value_bets)
 
@@ -152,7 +152,12 @@ class ValueBetFinder:
         match_pair_list = []
         now = datetime.utcnow()
         now_plus_two_hours = now + timedelta(hours=2)
-        now_minus_two_hours = now - timedelta(hours=2)
+        start_time = time(0, 0)  # 00:00
+        end_time = time(1, 0)  # 01:00
+        if start_time <= now.time() <= end_time:
+            time_ref = start_time
+        else:
+            time_ref = (now - timedelta(hours=1)).time()
         
         collection1_matches = list(collection_pair[0].find({"date": date_string, "country": competition}))
         collection2_matches = list(collection_pair[1].find({"date": date_string, "country": competition}))
@@ -171,7 +176,7 @@ class ValueBetFinder:
                         if  datetime.strptime(_match2['last_modified_date'], date_format).date() >= now.date():
                             match1_last_modified_time = datetime.strptime(_match1['last_modified_time'], time_format).time()
                             match2_last_modified_time = datetime.strptime(_match2['last_modified_time'], time_format).time()
-                            if match1_last_modified_time > now_minus_two_hours.time() and  match2_last_modified_time > now_minus_two_hours.time():
+                            if match1_last_modified_time > time_ref and  match2_last_modified_time > time_ref:
                                 match_pair_list.append((_match1, _match2))
         else:
             for _match2 in collection2_matches:
@@ -185,7 +190,7 @@ class ValueBetFinder:
                         if  datetime.strptime(_match1['last_modified_date'], date_format).date() >= now.date():
                             match1_last_modified_time = datetime.strptime(_match1['last_modified_time'], time_format).time()
                             match2_last_modified_time = datetime.strptime(_match2['last_modified_time'], time_format).time()
-                            if match1_last_modified_time > now_minus_two_hours.time() and  match2_last_modified_time > now_minus_two_hours.time():
+                            if match1_last_modified_time > time_ref and  match2_last_modified_time > time_ref:
                                 match_pair_list.append((_match1, _match2))
                 
         for match_pair in match_pair_list:

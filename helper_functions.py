@@ -149,8 +149,11 @@ def compare_market(market1: list, market2: list, bookmaker1: str, bookmaker2: st
     if len(market1) == len(market2):
         value_bets = []
         for i in range(0, len(market1)):
-            if ((market2[i]/market1[i]) - 1) >= 0.02 and market2[i] >= 1.5 and market1[i] <= 2.5:
+            if ((market2[i]/market1[i]) - 1) >= 0.01 and market1[i] <= 2.1:
                 value_bets.append({"Condition": str(i), bookmaker1: market1[i], bookmaker2: market2[i], "ROI": str(((market2[i]/market1[i]) - 1)*100)+'%'})
+            if ((market2[i]/market1[i]) - 1) >= 0.04 and 2.1 < market1[i] <= 2.5:
+                value_bets.append({"Condition": str(i), bookmaker1: market1[i], bookmaker2: market2[i], "ROI": str(((market2[i]/market1[i]) - 1)*100)+'%'})
+            
         return value_bets
     else:
         raise AttributeError('compare_market, market1 and market2 should have thesame length')
@@ -209,9 +212,13 @@ def compare_markets(match1: dict, match2: dict, bookmaker1: str, bookmaker2: str
             match1_last_modified_time = datetime.strptime(match1['last_modified_time'], time_format).time()
             match2_last_modified_time = datetime.strptime(match2['last_modified_time'], time_format).time()
             if match1_last_modified_time > match2_last_modified_time:
-                final_match['value_bet_age'] = match2_last_modified_time.strftime("%H:%M:%S")
+                value_bet_age = datetime.combine(now.date(), now.time()) - datetime.combine(now.date(), match2_last_modified_time)
             else:
-                final_match['value_bet_age'] = match1_last_modified_time.strftime("%H:%M:%S")
+                value_bet_age = datetime.combine(now.date(), now.time()) - datetime.combine(now.date(), match1_last_modified_time)
+            hours = value_bet_age.seconds // 3600
+            minutes = (value_bet_age.seconds // 60) % 60
+            seconds = value_bet_age.seconds % 60
+            final_match['value_bet_age'] = "{:02d}:{:02d}:{:02d}".format(hours, minutes, seconds)
         except KeyError:
             pass
         
@@ -250,6 +257,23 @@ def remove_false_fields(input_dict: dict) -> dict:
     else:
         return input_dict
 
+def time_difference_less_than_15min(time_a, time_b):
+    # Define the time format
+    time_format = "%H:%M"
+    
+    # Parse the time strings into datetime objects
+    datetime_a = datetime.strptime(time_a, time_format)
+    datetime_b = datetime.strptime(time_b, time_format)
+    
+    # Calculate the time difference
+    time_difference = abs(datetime_a - datetime_b)
+    
+    # Check if the time difference is less than or equal to 30 minutes
+    if time_difference.total_seconds() < 15 * 60:
+        return True
+    else:
+        return False
+
 def find_similar_football_match(match_list: list, match: dict) -> dict:
     """
     Find the most similar match from a list of football matches
@@ -270,10 +294,11 @@ def find_similar_football_match(match_list: list, match: dict) -> dict:
         ratio2 = fuzz.token_sort_ratio(_match["teams"][1].lower(), match["teams"][1].lower())
         min_ratio = min(ratio1, ratio2)
         max_ratio = max(ratio1, ratio2)
-        ratio = 0.3*max_ratio + 0.7*min_ratio
+        ratio = 0.2*max_ratio + 0.8*min_ratio
         if ratio > best_ratio:
-            best_ratio = ratio
-            best_match = _match
+            if time_difference_less_than_15min(match["time"], _match["time"]):
+                best_ratio = ratio
+                best_match = _match
         if best_ratio >= 99:
             break
     
